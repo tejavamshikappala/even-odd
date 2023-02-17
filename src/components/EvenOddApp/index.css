@@ -1,0 +1,66 @@
+.for_outer_container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+.for_inner {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.forHeader {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+}
+.forPara {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 20px;
+}
+.for_button {
+  font-family: 'Roboto';
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  color: #1e293b;
+}
+.forSecondPara {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .for_outer_container {
+    align-items: center;
+  }
+  .for_inner {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .forHeader {
+    font-size: 44px;
+  }
+  .forPara {
+    font-size: 30px;
+  }
+  .for_button {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+  }
+}
