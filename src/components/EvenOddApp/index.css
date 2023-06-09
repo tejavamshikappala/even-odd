@@ -1,4 +1,4 @@
-.for_outer_container {
+.for-outer-container {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
 
   min-height: 100vh;
 }
-.for_inner {
+.for-inner {
   background-image: linear-gradient(#ff6e7f, #bfe9ff);
   display: flex;
   flex-direction: column;
@@ -16,17 +16,17 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.forHeader {
+.for-header {
   font-family: 'Roboto';
   color: #0f172a;
   font-weight: bold;
 }
-.forPara {
+.for-para {
   font-family: 'Roboto';
   color: #334155;
   font-size: 20px;
 }
-.for_button {
+.for-button {
   font-family: 'Roboto';
   padding-left: 20px;
   padding-right: 20px;
@@ -35,30 +35,31 @@
   border-radius: 10px;
   border-width: 0px;
   color: #1e293b;
+  cursor: pointer;
 }
-.forSecondPara {
+.for-second-para {
   font-family: 'Roboto';
   font-size: 15px;
   color: #334155;
   font-weight: 500;
 }
 @media screen and (min-width: 768px) {
-  .for_outer_container {
+  .for-outer-container {
     align-items: center;
   }
-  .for_inner {
+  .for-inner {
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .forHeader {
+  .for-header {
     font-size: 44px;
   }
-  .forPara {
+  .for-para {
     font-size: 30px;
   }
-  .for_button {
+  .for-button {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 18px;

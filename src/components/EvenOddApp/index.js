@@ -13,23 +13,23 @@ class EvenOddApp extends Component {
     const {value} = this.state
     let Auth
     if (value % 2 === 0) {
-      Auth = <p className="forPara">Count is Even</p>
+      Auth = <p className="for-para">Count is Even</p>
     } else {
-      Auth = <p className="forPara">Count is Odd</p>
+      Auth = <p className="for-para">Count is Odd</p>
     }
     return (
-      <div className="for_outer_container">
-        <div className="for_inner">
-          <h1 className="forHeader">Count {value}</h1>
+      <div className="for-outer-container">
+        <div className="for-inner">
+          <h1 className="for-header">Count {value}</h1>
           {Auth}
           <button
-            className="for_button"
+            className="for-button"
             type="button"
             onClick={this.onIncrement}
           >
             Increment
           </button>
-          <p className="forSecondPara">
+          <p className="for-second-para">
             *Increase By Random Number Between 0 to 100
           </p>
         </div>
